@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HjlibBenchmarkApp</string>
+
+    <string name="radio_jdk">Standard JDK</string>
+    <string name="radio_hjlib">HJ Library</string>
+
+    <string name="btn_submit">Submit</string>
+    <string name="radio_quicksort">Quicksort</string>
+    <string name="radio_nqueens">N Queens</string>
+    <string name="radio_matmul">Matrix Multiplication</string>
+    <string name="radio_jgfforkjoin">JGF Fork Join</string>
+    <string name="text_choose_numiters">Choose Iterations</string>
+
+    <string-array name="text_numiters">
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+</resources>

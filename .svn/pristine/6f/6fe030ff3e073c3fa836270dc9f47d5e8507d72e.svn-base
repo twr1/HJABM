@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="habanero-java-lib-0.1.2-SNAPSHOT-jdk7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/habanero-java-lib-0.1.2-SNAPSHOT-jdk7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

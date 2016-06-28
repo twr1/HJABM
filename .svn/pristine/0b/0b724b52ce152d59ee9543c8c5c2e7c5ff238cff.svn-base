@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Execution Mode" />
+
+    <RadioGroup
+            android:id="@+id/radioMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <RadioButton
+                android:id="@+id/radioJava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_jdk"
+                android:checked="true" />
+
+        <RadioButton
+                android:id="@+id/radioHJlib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_hjlib" />
+
+    </RadioGroup>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Benchmark" />
+
+    <RadioGroup
+            android:id="@+id/radioBenchmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <RadioButton
+                android:id="@+id/radioJgfForkJoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_jgfforkjoin"
+                android:checked="true" />
+
+        <RadioButton
+                android:id="@+id/radioMatMul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_matmul" />
+
+        <!--<RadioButton-->
+                <!--android:id="@+id/radioNQueens"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/radio_nqueens" />-->
+
+        <RadioButton
+                android:id="@+id/radioQuicksort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_quicksort" />
+
+    </RadioGroup>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Number of Iterations" />
+
+    <Spinner
+            android:id="@+id/spinnerNumIters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/text_numiters"
+            android:prompt="@string/text_choose_numiters" />
+
+    <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_submit" />
+
+</LinearLayout>
+
